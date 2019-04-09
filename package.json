@@ -1,0 +1,31 @@
+{
+  "name": "wwftime",
+  "version": "1.0.0",
+  "description": "time <------> timestamp",
+  "bin": {
+    "wwft": "./lib/time.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wang-weifeng/wwftime.git"
+  },
+  "keywords": [
+    "time",
+    "timestamp",
+    "repl",
+    "wwftime"
+  ],
+  "author": "wang-weifeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wang-weifeng/wwftime/issues"
+  },
+  "homepage": "https://github.com/wang-weifeng/wwftime#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "moment": "^2.24.0"
+  }
+}
